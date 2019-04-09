@@ -13,7 +13,7 @@ module.exports = (env) => {
     return {
         entry: './src/app.js',
         output: {
-            path: path.join(__dirname, 'public'),   // https://nodejs.org/api/path.html
+            path: path.join(__dirname, 'public', 'dist'),   // https://nodejs.org/api/path.html
             filename: 'bundle.js'
         },
         module: {
@@ -47,7 +47,8 @@ module.exports = (env) => {
         devtool: isProduction ? 'source-map' : 'inline-source-map',
         devServer: {
             contentBase: path.join(__dirname, 'public'),
-            historyApiFallback: true
+            historyApiFallback: true,
+            publicPath: '/dist/'
         }
     }
 }
