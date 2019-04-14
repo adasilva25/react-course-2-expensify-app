@@ -33,7 +33,7 @@ export { firebase, database as default };
 
 
 
-
+// NO SE USÓ
 // database.ref('expenses')
 //     .on('value', (snapshot) => {
 //         const expenses = [];

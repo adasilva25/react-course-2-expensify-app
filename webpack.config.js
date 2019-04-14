@@ -2,6 +2,8 @@
 // https://webpack.js.org/  -->     https://webpack.js.org/concepts
 // https://www.npmjs.com/package/css-loader
 
+
+// We defined the Heroku variables in the terminal
 const path = require('path');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
