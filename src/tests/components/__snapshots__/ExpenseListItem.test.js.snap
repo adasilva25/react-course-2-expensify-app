@@ -3,7 +3,6 @@
 exports[`should render ExpenseListItem with expenses 1`] = `
 <div>
   <Link
-    replace={false}
     to="/edit/undefined"
   >
     <h3 />
