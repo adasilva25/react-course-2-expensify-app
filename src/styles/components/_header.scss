@@ -1,0 +1,18 @@
+.header{
+    background: $dark-blue;
+}
+
+.header__content{
+    align-items: center; // align items vertically
+    display: flex;
+    justify-content: space-between; // distributes the space between things
+    padding: $s-size 0;
+}
+
+.header__title{
+    color: white; // prevents the changing colors when we click the button
+    text-decoration: none; // clear the default links text decoration (UNDERLINE)
+    h1 {
+        margin: 0;
+    }
+}

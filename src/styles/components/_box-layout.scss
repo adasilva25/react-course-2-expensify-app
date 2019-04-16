@@ -1,0 +1,22 @@
+.box-layout {
+    align-items: center; // pone los items en el centro de la pagina
+    background: url('/images/bg.jpg'); // this url runs in the browser
+    background-size: cover; // revisar
+    display: flex;
+    height: 100vh; // vh --> viewport height (RESPONSIVE)
+    justify-content: center; // justifica el contenido y lo pone en el centro
+    width: 100vw;
+}
+
+.box-layout__box {
+    background: fade-out(white, .15);
+    border-radius: 3px; // bordes redondos
+    padding: $l-size $m-size; // adds space between the content and the border
+    text-align: center;
+    width: 25rem;
+}
+
+.box-layout__title{
+    margin: 0 0 $m-size 0; // top - right - bottom - left
+    line-height: 1; // space between lines
+}

@@ -1,0 +1,21 @@
+.button{
+    background: $blue;
+    border: none;   // quita el borde del botón
+    color: white;   // color del contenido
+    // justify-content: center;
+    display: inline-block;  // the vertical margin and padding take effect
+    font-size: $font-size-large;
+    font-weight: 300;
+    line-height: 1;
+    padding: $s-size;
+    // text-align: center;
+    text-decoration: none;  // takes the default text link decoration
+}
+
+.button--link{
+    background: none;
+}
+
+.button--secondary{
+    background: #888888;
+}
